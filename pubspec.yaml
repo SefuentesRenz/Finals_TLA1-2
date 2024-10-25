@@ -1,0 +1,21 @@
+name: recipe_app
+description: A simple recipe management app using Flutter and Riverpod.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0" # Adjust this according to your Flutter version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.0.0 # Riverpod for state management
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
